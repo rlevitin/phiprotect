@@ -1,0 +1,33 @@
+Package: phiprotect
+Type: Package
+Title: Protected Health Information Detection and Anonymization
+Version: 0.1.0
+Authors@R: person("Your Name", "your.email@example.com", role = c("aut", "cre"))
+Description: A comprehensive toolkit for detecting, classifying, and anonymizing
+    Protected Health Information (PHI) in healthcare datasets. Implements
+    risk-based classification (HIGH/MEDIUM/LOW) following HIPAA guidelines and
+    provides statistical disclosure control methods appropriate for each risk
+    level. Supports both in-memory data frames and database tables with
+    zero-exposure introspection capabilities.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.2.0
+Depends:
+    R (>= 4.0.0)
+Imports:
+    dplyr (>= 1.0.0),
+    stringr (>= 1.4.0),
+    purrr (>= 0.3.0),
+    tibble (>= 3.0.0),
+    readr (>= 2.0.0)
+Suggests:
+    arrow (>= 10.0.0),
+    DBI (>= 1.1.0),
+    dbplyr (>= 2.0.0),
+    testthat (>= 3.0.0),
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
+URL: https://github.com/yourusername/phiprotect
+BugReports: https://github.com/yourusername/phiprotect/issues
