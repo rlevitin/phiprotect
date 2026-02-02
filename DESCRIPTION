@@ -2,7 +2,7 @@ Package: phiprotect
 Type: Package
 Title: Protected Health Information Detection and Anonymization
 Version: 0.1.0
-Authors@R: person("Ronald Levitin", "rlevitin@gmail.com", role = c("aut", "cre"))
+Authors@R: person(given="Ronald", family="Levitin", email="rlevitin@gmail.com", role = c("aut", "cre"))
 Description: A comprehensive toolkit for detecting, classifying, and anonymizing
     Protected Health Information (PHI) in healthcare datasets. Implements
     risk-based classification (HIGH/MEDIUM/LOW) following HIPAA guidelines and
